@@ -1,11 +1,2 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/media/HP_PAVILION/tutorials/pomodoro'
-let g:netrw_dirhist_2='/home/ubuntu'
-let g:netrw_dirhist_3='/media'
-let g:netrw_dirhist_4='/media/HP_PAVILION'
-let g:netrw_dirhist_5='/media/HP_PAVILION/tutorials'
-let g:netrw_dirhist_6='/media/HP_PAVILION/tutorials/pomodoro'
-let g:netrw_dirhist_7='/media/HP_PAVILION/tutorials/pomodoro/scripts'
-let g:netrw_dirhist_8='/home/ubuntu'
-let g:netrw_dirhist_9='/home/ubuntu/dotvim'
+let g:netrw_dirhist_cnt =0

@@ -1,4 +1,8 @@
 colorscheme xoria256
 
-set guifont=inconsolata:h13
-
+if has("gui_gnome")
+    set guifont=inconsolata:h13
+endif
+if has("gui_win32")
+    set guifont=consolas:h13
+endif
