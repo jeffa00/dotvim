@@ -1,4 +1,4 @@
-colorscheme koehler
+colorscheme xoria256
 
-set guifont=consolas:h11
+set guifont=inconsolata:h13
 

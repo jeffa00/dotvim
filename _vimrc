@@ -2,7 +2,7 @@ set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
-colorscheme blue
+colorscheme breeze
 
 set lines=60 columns=150
 set ts=4 sts=4 sw=4 expandtab
