@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-colorscheme koehler
-
-set guifont=consolas:h11
-
-=======
 colorscheme xoria256
 
 if has("gui_gnome")
@@ -12,4 +6,3 @@ endif
 if has("gui_win32")
     set guifont=consolas:h13
 endif
->>>>>>> 651dfa0fa0d44a3581cd767c123ff8aacd47d004
