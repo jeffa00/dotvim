@@ -1,8 +1,13 @@
 " Vim color file --- psc (peak sea color) "Lite version"
 " Maintainer:	Pan, Shi Zhu <Go to the following URL for my email>
 " URL:		http://vim.sourceforge.net/scripts/script.php?script_id=760
+<<<<<<< HEAD
 " Last Change:	19 May 2011
 " Version:	3.5
+=======
+" Last Change:	31 Oct 2008
+" Version:	3.3
+>>>>>>> 651dfa0fa0d44a3581cd767c123ff8aacd47d004
 "
 "	Comments and e-mails are welcomed, thanks.
 "
@@ -16,8 +21,14 @@
 " Note: Please set the background option in your .vimrc and/or .gvimrc
 "
 "	It is much better *not* to set 'background' option inside
+<<<<<<< HEAD
 "	a colorscheme file.  because ":set background" improperly
 "	may cause colorscheme be sourced twice
+=======
+"	a colorscheme file.  because ":set background" inside a colorscheme
+"	may cause colorscheme be sourced twice or in the worst case result an
+"	infinite loop.
+>>>>>>> 651dfa0fa0d44a3581cd767c123ff8aacd47d004
 "
 " Color Scheme Overview: 
 "	:ru syntax/hitest.vim
@@ -47,7 +58,15 @@ if &background=='light'
   hi Search		guifg=NONE	guibg=#f8f8f8	gui=NONE
   hi Visual		guifg=NONE	guibg=#a6caf0	gui=NONE
   hi Cursor		guifg=#f0f0f0	guibg=#008000	gui=NONE
+<<<<<<< HEAD
   hi CursorIM		guifg=#f0f0f0	guibg=#800080   gui=NONE
+=======
+  " The idea of CursorIM is pretty good, however, the feature is still buggy
+  " in the current version (Vim 7.0).
+  " The following line will be kept commented until the bug fixed.
+  "
+  " hi CursorIM		guifg=#f0f0f0	guibg=#800080
+>>>>>>> 651dfa0fa0d44a3581cd767c123ff8aacd47d004
   hi Special		guifg=#907000	guibg=NONE	gui=NONE
   hi Comment		guifg=#606000	guibg=NONE	gui=NONE
   hi Number		guifg=#907000	guibg=NONE	gui=NONE
@@ -144,11 +163,14 @@ if &background=='light'
 
   " gui define for background=light end here
 
+<<<<<<< HEAD
   " generally, a dumb terminal is dark, we assume the light terminal has 256
   " color support.
   if &t_Co==8 || &t_Co==16
     set t_Co=256
   endif
+=======
+>>>>>>> 651dfa0fa0d44a3581cd767c123ff8aacd47d004
   if &t_Co==256
     " 256color light terminal support here
 
@@ -158,7 +180,11 @@ if &background=='light'
     hi Search		ctermfg=NONE	ctermbg=231	cterm=NONE
     hi Visual		ctermfg=NONE	ctermbg=153	cterm=NONE
     hi Cursor		ctermfg=255	ctermbg=28	cterm=NONE
+<<<<<<< HEAD
     hi CursorIM		ctermfg=255	ctermbg=90 cterm=NONE
+=======
+    " hi CursorIM	ctermfg=255	ctermbg=90
+>>>>>>> 651dfa0fa0d44a3581cd767c123ff8aacd47d004
     hi Special		ctermfg=94	ctermbg=NONE	cterm=NONE
     hi Comment		ctermfg=58	ctermbg=NONE	cterm=NONE
     hi Number		ctermfg=94	ctermbg=NONE	cterm=NONE
@@ -248,7 +274,11 @@ if &background=='light'
     hi ModeMsg		cterm=bold
     hi TabLineSel	cterm=bold
 
+<<<<<<< HEAD
     "hi lCursor		ctermfg=bg	ctermbg=fg	cterm=NONE
+=======
+    hi lCursor		ctermfg=bg	ctermbg=fg	cterm=NONE
+>>>>>>> 651dfa0fa0d44a3581cd767c123ff8aacd47d004
   endif " t_Co==256
   " }}}2
 elseif &background=='dark' 
@@ -270,7 +300,11 @@ elseif &background=='dark'
   hi Visual		guifg=#000000	guibg=#a6caf0	gui=NONE
   hi Cursor		guifg=#000000	guibg=#00f000	gui=NONE
   " NOTE THIS IS IN THE COOL SECTION
+<<<<<<< HEAD
   hi CursorIM		guifg=#000000	guibg=#f0c0f0	gui=NONE
+=======
+  " hi CursorIM		guifg=#000000	guibg=#f000f0	gui=NONE
+>>>>>>> 651dfa0fa0d44a3581cd767c123ff8aacd47d004
   hi StatusLine		guifg=#000000	guibg=#a6caf0	gui=NONE
   hi LineNr		guifg=#b0b0b0	guibg=NONE	gui=NONE
   hi Question		guifg=#000000	guibg=#d0d090	gui=NONE
@@ -340,8 +374,11 @@ elseif &background=='dark'
 
   if &t_Co==8 || &t_Co==16
     " for 8-color and 16-color term
+<<<<<<< HEAD
     " Note: if you want transparent, change all ctermbg=NONE
     " from hi Normal to hi DiffDelete, and hi TabLineSel, CursorLine
+=======
+>>>>>>> 651dfa0fa0d44a3581cd767c123ff8aacd47d004
     hi Normal		ctermfg=LightGrey   ctermbg=Black
     hi Special		ctermfg=Yellow	    ctermbg=bg
     hi Comment		ctermfg=DarkYellow  ctermbg=bg
@@ -506,7 +543,11 @@ elseif &background=='dark'
     hi Visual		ctermfg=16	ctermbg=153	cterm=NONE
     hi Cursor		ctermfg=16	ctermbg=46	cterm=NONE
     " NOTE THIS IS IN THE COOL SECTION
+<<<<<<< HEAD
     hi CursorIM		ctermfg=16	ctermbg=219	cterm=NONE
+=======
+    " hi CursorIM	ctermfg=16	ctermbg=201	cterm=NONE
+>>>>>>> 651dfa0fa0d44a3581cd767c123ff8aacd47d004
     hi StatusLine	ctermfg=16	ctermbg=153	cterm=NONE
     hi LineNr		ctermfg=249	ctermbg=NONE	cterm=NONE
     hi Question		ctermfg=16	ctermbg=186	cterm=NONE
