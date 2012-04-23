@@ -1,0 +1,6 @@
+tfs	tfs.txt	/*tfs*
+tfs-author	tfs.txt	/*tfs-author*
+tfs-mappings	tfs.txt	/*tfs-mappings*
+tfs-other-commands	tfs.txt	/*tfs-other-commands*
+tfs-version	tfs.txt	/*tfs-version*
+tfs.txt	tfs.txt	/*tfs.txt*

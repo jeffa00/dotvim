@@ -2,6 +2,7 @@ set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
 source $VIMRUNTIME/mswin.vim
 behave mswin
+set background=dark
 colorscheme breeze
 
 set lines=60 columns=150
