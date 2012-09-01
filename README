@@ -1,7 +1,7 @@
 ##Instructions
 These instructions are based on one of the screencasts from VimCasts.org.
 
-(Synchronizing plugins with git submodules and pathogen)[http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/]
+[Synchronizing plugins with git submodules and pathogen](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/)
 
     cd ~
     git clone http://github.com/username/dotvim.git ~/.vim
