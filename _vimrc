@@ -9,6 +9,10 @@ set lines=60 columns=150
 set ts=4 sts=4 sw=4 expandtab
 set autoread
 set hidden
+
+set dir=~/vimtemp////,.
+set backupdir=~/vimtemp////,.
+
 call pathogen#infect()
 
 if has("autocmd")
