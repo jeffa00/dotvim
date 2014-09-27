@@ -10,3 +10,17 @@ These instructions are based on one of the screencasts from VimCasts.org.
     cd ~/.vim
     git submodule init
     git submodule update
+
+For Windows **from CMD runas admin not PowerShell** you'll do this:
+
+    cd ~
+    git clone http://github.com/username/dotvim.git ~/vimfiles
+    mklink _vimrc vimfiles\_vimrc
+    mklink _gvimrc vimfiles\_gvimrc
+    cd ~/.vim
+    git submodule init
+    git submodule update
+    
+Why not PowerShell? Symlinks are easy under CMD, not PowerShell. I think you can do it, but not with the simple mklink command.
+
+Also note that .vim under Windows is vimfiles and .vimrc is _vimrc.
